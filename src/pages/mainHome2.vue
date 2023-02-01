@@ -3,6 +3,7 @@
 		<!-- <div v-for="user in users">{{ user }}</div> -->
 		<!-- <input type="submit" @click="change()" /> -->
 		{{ users }}
+		{{ 'hi' }}
 	</div>
 </template>
 
