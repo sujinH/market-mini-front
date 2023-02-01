@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
+
+.navbar-list > ul > li > a {
+  color: #000000;
+    /* background-color: #fff; */
+    font-family: 'Quicksand', 'Nanum Gothic';
+    font-size: 13px;
+    letter-spacing: 0.2em;
+    transition: .3s;
+    padding: 0 15px;
+  }
+
+  .navbar-list > ul > li > a, .navbar-list > ul > li > a:focus {
+    /* background-color: #000; */
+    color: #b9b9b9;
+}
+.navbar-right {
+  margin-right: 70px;
+}
+
+/* @media (min-width: 769px){
+  .navbar-list > ul > li > a {
+      padding: 0 15px;
+  }
+} */
+  @media (max-width: 768px) {
+    .navbar-list > ul > li > a {
+      font-size: 20px;
+      font-weight: normal;
+    }
+  }
